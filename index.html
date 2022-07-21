@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Document</title>
+</head>
+
+<body class="container">
+
+    <!-- Bài 1 chính -->
+    <div class="w-50 mx-auto">
+        <form>
+            <div class="card">
+                <div class="card-header text-center">
+                    In số nguyên tố
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="nhapSoNguyen">Nhập 1 số nguyên dương</label>
+                        <input type="number" id="nhapSoNguyen" class="form-control">
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <div class="form-group">
+                        <button class="btn btn-success" type="button" onclick="inDaySNT()">In kết quả</button>
+                        <button class="btn btn-danger" type="reset">Nhập lại</button>
+                    </div>
+                    <div class="alert alert-primary">
+                        <p id="inDaySNT"></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bài 2 bổ sung -->
+    <div class="w-50 mx-auto">
+        <form>
+            <div class="card">
+                <div class="card-header text-center">
+                    In số chẵn/ lẻ nhỏ hơn 100
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-primary">
+                        <p id="inChanLe"></p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <button class="btn btn-success" type="button" onclick="inDaySo()">In kết quả</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bài 3 bổ sung -->
+    <div class="w-50 mx-auto">
+        <form>
+            <div class="card text-center">
+                <div class="card-header">
+                    Đếm số chia hết cho 3
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-primary">
+                        <p id="inChia3"></p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success" type="button" onclick="demSo()">In kết quả</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./js/main.js"></script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
